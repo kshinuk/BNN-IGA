@@ -1,0 +1,17 @@
+2025-12-16 21:29:46 - INFO - saving to ./results/pretrained/resnet_binary
+2025-12-16 21:29:46 - DEBUG - run arguments: Namespace(results_dir='./results/pretrained', save='resnet_binary', dataset='cifar10', model='resnet_binary', input_size=None, ao_bit=1.0, w_bit=1.0, adc_bit=1, model_config='', type='torch.cuda.FloatTensor', gpus='0', workers=0, epochs=1, start_epoch=0, batch_size=128, optimizer='SGD', lr=0.1, momentum=0.9, weight_decay=0.0001, print_freq=10, resume='none', evaluate='./results/pretrained/resnet_binary/model_best.pth.tar', seed=42)
+2025-12-16 21:29:46 - INFO - creating model resnet_binary
+2025-12-16 21:29:46 - INFO - created model with configuration: {'input_size': None, 'dataset': 'cifar10', 'ao_bit': 1.0, 'w_bit': 1.0, 'adc_bit': 1}
+2025-12-16 21:29:46 - INFO - loaded checkpoint './results/pretrained/resnet_binary/model_best.pth.tar' (epoch 469)
+2025-12-16 21:29:46 - INFO - number of parameters: 4330974
+2025-12-16 21:29:48 - INFO - EVALUATING - Epoch: [0][0/79]	Time 0.389 (0.389)	Data 0.017 (0.017)	Loss 0.4128 (0.4128)	Prec@1 86.719 (86.719)	Prec@5 99.219 (99.219)
+2025-12-16 21:29:48 - INFO - EVALUATING - Epoch: [0][10/79]	Time 0.034 (0.067)	Data 0.013 (0.014)	Loss 0.4521 (0.4992)	Prec@1 91.406 (89.915)	Prec@5 99.219 (99.290)
+2025-12-16 21:29:48 - INFO - EVALUATING - Epoch: [0][20/79]	Time 0.034 (0.051)	Data 0.013 (0.014)	Loss 0.3266 (0.5300)	Prec@1 92.969 (89.286)	Prec@5 98.438 (99.144)
+2025-12-16 21:29:49 - INFO - EVALUATING - Epoch: [0][30/79]	Time 0.034 (0.048)	Data 0.013 (0.016)	Loss 0.4800 (0.5375)	Prec@1 90.625 (88.810)	Prec@5 100.000 (99.244)
+2025-12-16 21:29:49 - INFO - EVALUATING - Epoch: [0][40/79]	Time 0.033 (0.045)	Data 0.013 (0.015)	Loss 0.6453 (0.5404)	Prec@1 85.938 (88.624)	Prec@5 100.000 (99.276)
+2025-12-16 21:29:49 - INFO - EVALUATING - Epoch: [0][50/79]	Time 0.033 (0.042)	Data 0.013 (0.015)	Loss 0.4467 (0.5216)	Prec@1 89.062 (88.787)	Prec@5 100.000 (99.372)
+2025-12-16 21:29:50 - INFO - EVALUATING - Epoch: [0][60/79]	Time 0.033 (0.041)	Data 0.013 (0.015)	Loss 0.4836 (0.5261)	Prec@1 89.062 (88.640)	Prec@5 100.000 (99.385)
+2025-12-16 21:29:50 - INFO - EVALUATING - Epoch: [0][70/79]	Time 0.033 (0.040)	Data 0.013 (0.014)	Loss 0.3209 (0.5218)	Prec@1 91.406 (88.545)	Prec@5 100.000 (99.450)
+2025-12-16 21:29:50 - INFO - 
+Validation Loss 0.5129 	Validation Prec@1 88.720 	Validation Prec@5 99.470 
+
