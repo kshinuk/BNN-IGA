@@ -6,13 +6,21 @@ You can train/inference ResNet-18 and ResNet-20 with cmd belo.
 ### -train
 ```bash
 python auto_train_cifar10.py
+```
+
 or
+
+```bash
 ./auto_train_cifar10.py
 ```
 ### -inference
 ```bash
 python auto_test_cifar10.py
+```
+
 or
+
+```bash
 ./auto_test_cifar10.py
 ```
 More args are defined at main_binary.py
