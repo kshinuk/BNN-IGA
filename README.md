@@ -1,5 +1,5 @@
 # BNN-IGA
-BNN-IGA is ADC-Less DNN training algorithm developed by [HPIC Design Lab.](https://hpic-lab.github.io/) at Hanyang University.
+BNN-IGA is Effective DNN training algorithm for ADC-Less In-Memory Computing. developed by [HPIC Design Lab.](https://hpic-lab.github.io/) at Hanyang University.
 
 ## Quick Start
 You can train/inference ResNet-18 and ResNet-20 with cmd belo.
