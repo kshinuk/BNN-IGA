@@ -3,7 +3,7 @@ ADC-Less Binarized Neural Networks with Impulse Gaussian Approximation.
 This neural network algorithm is developed by [HPIC Design Lab.](https://hpic-lab.github.io/) at Hanyang University, South Korea.
 
 ## Quick Start
-You can train/inference Res20 with cmd below.\
+You can train/inference Res20 with cmd below.
 ### -train
 ```bash
 python main_binary.py --results_dir ./results/resnet20 --save test_model --model resnet_binary
