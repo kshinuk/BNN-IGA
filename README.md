@@ -1,8 +1,9 @@
 # BNN-IGA
 BNN-IGA is an Efficient DNN training algorithm for ADC-Less In-Memory Computing Hardware, developed by [HPIC Design Lab.](https://hpic-lab.github.io/) at Hanyang University, South Korea.
+Paper: [IGA-SRAM: A Compact SRAM-Based IMC Engine for Binary/Ternary Deep Neural Networks With ADC-Less and Error-Aware Training Algorithm](https://ieeexplore.ieee.org/document/11456958)
 
 ## Quick Start
-You can train/inference ResNet-18 and ResNet-20 with cmd belo.
+You can train/inference ResNet-18 and ResNet-20 with cmd below.
 ### -train
 ```bash
 python auto_train_cifar10.py
